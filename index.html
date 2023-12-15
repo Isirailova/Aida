@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>To-DO LIST</title>
 </head>
 <body>
-    <p>asd</p>
+    <div class="container">
+        <div class="top">
+            <h1>Good things are coming</h1>
+        </div>
+        <div class="one">
+            <p>“Implement whatever organizational system works best for you, but then be sure to review your to-do list at least once a week.</p>
+        </div>
+        <div class="two">
+            <p>“...the plan will happen in spite of us, not because of us.”</p>
+        </div>
+        <div class="todo-app">
+            <h2>📝 My To-Do List  📝</h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
